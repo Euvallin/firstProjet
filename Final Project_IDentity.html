@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find your IDentity</title>
+    <style>
+
+span {
+display: block;
+margin: 10px auto;
+padding: 10px;
+border-radius: 20px;
+text-align: center;
+background: linear-gradient(180.8deg, rgb(139, 10, 130) 6.9%, rgb(73, 6, 70) 73.2%);
+}
+h1{
+    color: grey;
+    display: block;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px pink;
+}
+h2{
+    color: grey;
+    display: block;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px pink;
+}
+
+img{
+display: block;
+text-align: center;
+margin: 0 auto;
+border-radius: 20px;
+}
+
+p{
+font-size: large;
+font-weight: 100;
+color: grey;
+display: block; 
+text-align:center;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 30px;
+}
+
+div{
+    font-size: large;
+font-weight: 100;
+color: grey;
+display: block; 
+text-align:center;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 30px;
+}
+Button{
+display: block;
+margin: 20px auto;
+padding: 10px;
+font-size: 30px;
+border: 5px solid whitesmoke;
+box-shadow: 2px 5px 5px white;  
+transition: all 1s linear;  
+cursor: pointer;
+border-radius: 20px;
+color: grey;
+background-color: transparent;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ button:hover{
+background-color: whitesmoke;
+color: violet; 
+text-shadow: 1px 1px 2px pink;
+ }
+ a{
+    color: whitesmoke;
+ }
+
+.eighthLine{
+    text-align: center;
+    text-shadow: 1px 1px 2px violet;
+}
+    </style>
+  </head>
+  <body>
+    <span>
+    <h1>Recall who you truly are</h1>
+    <hr />
+    <h2>There is no such thing as coincidence. Finding your purpose is round the corner</h2>
+    <br />
+
+    <img src="https://media.tenor.com/k9miBvrRV6QAAAAC/eye-space.gif" width ="300"; </img>
+    <p>
+      <div class=firstLine>At certain periods in life of each of us we may stumble across emerging
+      moments of unbearable wish to discover one's <strong> true self </strong>.</div>
+      <br>
+      <div class="secondLine">One can no longer live the life one has lived before for the idea of finding
+    The Path, The <em>Vector</em>,  The Direction wakes up and sets going forward.</div><br>
+     <div class="thirdLine">Solving the eternal Mystery haunts us until we start the Journey of our
+      whole life, being far from a spiritual retreat somewhere in the
+      mountains.</div><br> 
+      <div class="fourthLine">All of a sudden one might finally realize every single piece of the
+      puzzle scattered randomly in space before builds up into a winding stairs
+      that leads to relief and peace inside oneself.</div><br>
+    <div class="fifthLine">Now one knows for sure the time has come to let go all fears.</div><br> 
+    <div class="sixthLine">Audaciously face your <a href="https://www.google.com/">IDentity</a>, 
+        reuniting with the Universe as its part.</div><br >
+    <div class="seventhLine">Hold your breath...and exhale: we're gonna take a deep dive into the
+      terra incognita of your soul, traveling through times and dimensions.</div><br>
+    <div class="eighthLine">The door to magic appears when a humble student is ready</div>.
+    </p>
+    <button>Open the door</button>
+    </span>
+
+    <script>
+    function door() {
+        let name = prompt("What is your name?");
+        let question = prompt("Do you believe in miracles?");
+         question = question.toLowerCase().trim();
+if (question === "yes") {
+alert ("Thank you," + " " + name + " " + ", you will get a sign soon!");
+    }else {
+    alert ("😋😋😋")
+    }
+}
+    let openDoorButton = document.querySelector("button");
+      openDoorButton.addEventListener("click", door);
+        </script>
+  </body>
+</html>
